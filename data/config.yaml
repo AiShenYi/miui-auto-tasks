@@ -1,18 +1,17 @@
 preference:
     hour: <int>
     minute: <int>
-accounts:
--   uid: '<string>'
-    password: <string>
-    cookies: <string>
-    user_agent: <string>
-    CheckIn: <bool>
-    BrowseUserPage: <bool>
-    BrowsePost: <bool>
-    ThumbUp: <bool>
-    BrowseSpecialPage: <bool>
-    BoardFollow: <bool>
-    CarrotPull: <bool>
+  - uid: 100000
+    password: abc123
+    cookies: aabbcc123456
+    user-agent: 'Mozilla/5.0 (Android 11; Mobile; rv:95.0) Gecko/95.0 Firefox/95.0'
+    CheckIn: false
+    BrowseUserPage: false
+    BrowsePost: false
+    ThumbUp: false
+    BrowseSpecialPage: false
+    BoardFollow: false
+    CarrotPull: false
 ONEPUSH:
     notifier: <string>
     params:
